@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cámara cute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Empezamos con la cámara :D-->
+<h1>Take a picture ✮ ⋆ ˚｡𖦹 ⋆｡°✩</h1>
+<br>
+<video id="Video" autoplay playsinline></video>
+<button id="SayCheese">Take</button>
+<select id="Filtro">
+    <option value="none">Without</option>
+    <option value="FrutigerAero">Frutiger Aero</option>
+    <option value="Y2K">Y2K</option>
+    <option value="MicrosoftOfficeAssistant">M.O Assistant</option>
+    <option value="DreamCore">DreamCore</option>
+    <option value="Virus">Virus</option>
+
+<!-- Donde mostramos la foto -->
+<canvas id="Canvas" style="display:none;"></canvas>
+<img id="Preview" style="width:250px; margin-top:20px; display:none;">
+
+
+<br>
+
+<h3>You look great! (˶˃ ᵕ ˂˶)</h3>
+
+<!---Acá va el acceso al js-->
+<script src="Cámara.js"></script>
+
+</body>
+</html>

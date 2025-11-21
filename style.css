@@ -1,0 +1,10 @@
+body{
+    margin: 5%;
+    background-image: url();
+    height: 100vh; /* Ocupa el 100% de la altura visible */
+    justify-content: center; /* Centra contenido verticalmente */
+    align-items: center;     /* Centra contenido horizontalmente */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    background-position: center; /* Centra la imagen */
+    background-size: cover;
+}
